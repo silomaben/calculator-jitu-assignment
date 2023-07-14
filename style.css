@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+}
+
+.form{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ask{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.my-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#first-no{
+    height: 20px;
+}
+
+#second-no{
+    height: 20px;
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

@@ -38,6 +38,7 @@ btnDivide.addEventListener('click', () => {
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
+    document.getElementById("your-answer").value = '';
 
     if(operator == ''){
         alert('select an operator');
